@@ -1,0 +1,23 @@
+.Contain{
+    margin-left:100px ;
+    margin-right:100px ;
+}
+.main{
+    display: flex;
+   margin-top: 20px;
+   justify-content: center;
+}
+.hr1{
+   
+    margin: 90px;
+    margin-left: 20px;
+    border: 1px solid #891f24;
+    width: 70vw;
+    height: 0;
+}
+.beer{
+    font-size:3rem;
+    margin: 50px;
+    margin-right: 0;
+    color: #891f24;
+}

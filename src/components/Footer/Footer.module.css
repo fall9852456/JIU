@@ -1,0 +1,47 @@
+.Foot{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.Foot_content1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFF4E2;
+}
+.promblem{
+color:#891f24 ;
+font-size: 1.5rem;
+font-weight: bold;
+margin-top: 20px;
+}
+.content1{
+    color: #9C9A9A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content2{
+    color: #9C9A9A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.content3{
+    color: #9C9A9A;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Foot_content2{
+    background-color: #891F24;
+}
+.word{
+    margin-top: 20px;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF ;
+    font-size: 1.5rem;
+    }
+.social{
+    display: flex;
+   justify-content:space-evenly;
+   margin-top: 20px;
+}

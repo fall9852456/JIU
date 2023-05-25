@@ -1,0 +1,20 @@
+.Head{
+    display: flex;
+height: 100px;
+background-color: #891F24;
+color: white;
+font-size: 40px;
+align-items: center;
+justify-content:space-between;
+}
+.JIU{
+    margin-left:50px ;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-right:40px ;
+}
+.icon1{
+    margin-right:20px ;
+}

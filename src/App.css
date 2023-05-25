@@ -1,0 +1,22 @@
+.mainlayout {
+    display: grid;
+    min-height: 100vh;
+   
+    grid-template-areas: 
+      "Header"
+      "Container"
+      "Footer"
+    ;
+    grid-template-rows: auto 1fr auto;
+  }
+  .Header {
+    grid-area: Header;
+  }
+  
+  .Container {
+    grid-area: Container;
+  }
+  
+  .Footer {
+    grid-area: Footer;
+  } 
