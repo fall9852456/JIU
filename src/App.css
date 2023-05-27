@@ -1,22 +1,61 @@
+
+/* RWD Container */
+.container{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 576px;
+  }
+} 
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+} 
+
+@media (min-width: 992px) {
+  .container {
+    width: 992px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+} 
+@media (min-width: 1600px) {
+  .container {
+    width:100%;
+  }
+}  
+
+
 .mainlayout {
+   overflow-x: hidden;
     display: grid;
     min-height: 100vh;
-   
     grid-template-areas: 
       "Header"
       "Container"
       "Footer"
     ;
     grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+    
   }
-  .Header {
+  .layoutHeader {
     grid-area: Header;
   }
   
-  .Container {
+  .layoutContainer {
     grid-area: Container;
+  
   }
   
-  .Footer {
+  .layoutFooter {
     grid-area: Footer;
   } 

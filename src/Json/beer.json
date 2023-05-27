@@ -1,0 +1,67 @@
+[
+{
+    "id":"dssdfs",
+    "image":"/images/beer1.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":1200,
+    "currency":"NT$"
+},
+{
+    "id":"dssddfsffs",
+    "image":"/images/beer2.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":1000,
+    "currency":"NT$"
+},
+{
+    "id":"dsfdfd",
+    "image":"/images/beer3.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":1500,
+    "currency":"NT$"
+},
+{
+    "id":"dssdffs",
+    "image":"/images/beer4.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":1700,
+    "currency":"NT$"
+},
+{
+    "id":"dsfdgsrfb",
+    "image":"/images/beer5.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":3200,
+    "currency":"NT$"
+},
+{
+    "id":"dBDdfd",
+    "image":"/images/beer6.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":1900,
+    "currency":"NT$"
+},
+{
+    "id":"dFBDGERd",
+    "image":"/images/beer7.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":2000,
+    "currency":"NT$"
+}
+,{
+    "id":"dDFFFf",
+    "image":"/images/beer8.jpg",
+    "name":"dfsfe",
+    "En_name":"sefsdv",
+    "price":2500,
+    "currency":"NT$"
+}
+
+]

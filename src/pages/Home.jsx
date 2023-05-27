@@ -1,19 +1,21 @@
 import Header from "../components/Header"
 import Container from "../components/Container"
 import Footer from "../components/Footer"
+import products from "../Json/beer.json";
 function Home(){
     return(
-        <div className="mainlayout">
-            <Header className="Header"
+        <div className="container mainlayout">
+            <Header className="layoutHeader"
                 
                 
                 
             />
-            <Container className="Container"
+            <Container products={products}
+            className="layoutContainer"
             
 
             />
-            <Footer className="Footer"
+            <Footer className="layoutFooter"
             
             />
         </div>
