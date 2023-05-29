@@ -1,0 +1,108 @@
+.detail {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    background-color: #FFF4E2;
+}
+
+.picture1 {
+    width: 180%;
+
+}
+
+.info {
+    font-size: x-large;
+    width: 70%;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.En_name {
+    font-weight: lighter;
+
+    font-size: 1rem;
+}
+
+.hr {
+    margin-bottom: 7vh;
+    width: 100%;
+}
+
+.describe {
+    margin-bottom: 10vh;
+    font-size: medium;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #891f24;
+    margin-bottom: 5vh;
+}
+.qty{
+    margin-bottom: 5vh;
+
+}
+.wine {
+    margin-top: 10vh;
+}
+
+.introduce {
+    display: flex;
+    color: #891f24;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 7vw;
+    margin-bottom: 3vh;
+}
+
+.news {
+    display: flex;
+    justify-content: space-evenly;
+}
+.country{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    box-shadow: 1px 1px 3px rgb(173, 173, 173);
+    border-radius:25px;
+    padding-left: 10px;
+    margin-bottom: 10vh;
+}
+.percent{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    box-shadow: 1px 1px 3px rgb(173, 173, 173);
+    border-radius:25px;
+    padding-left: 10px;
+    margin-bottom: 10vh;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    box-shadow: 1px 1px 3px rgb(173, 173, 173);
+    border-radius:25px;
+    padding-left: 10px;
+    margin-bottom: 10vh;
+}
+.ml{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    box-shadow: 1px 1px 3px rgb(173, 173, 173);
+    border-radius:25px;
+    padding-left: 10px;
+    margin-bottom: 10vh;
+}

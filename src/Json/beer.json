@@ -5,7 +5,13 @@
     "name":"dfsfe",
     "En_name":"sefsdv",
     "price":1200,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 10  
 },
 {
     "id":"dssddfsffs",
@@ -13,55 +19,97 @@
     "name":"dfsfe",
     "En_name":"sefsdv",
     "price":1000,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 5
 },
 {
     "id":"dsfdfd",
     "image":"/images/beer3.jpg",
-    "name":"dfsfe",
+    "name":"ghfdhght",
     "En_name":"sefsdv",
     "price":1500,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 2
 },
 {
     "id":"dssdffs",
     "image":"/images/beer4.jpg",
-    "name":"dfsfe",
+    "name":"dhgfd",
     "En_name":"sefsdv",
     "price":1700,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 10  
 },
 {
     "id":"dsfdgsrfb",
     "image":"/images/beer5.jpg",
-    "name":"dfsfe",
+    "name":"dtyujgj",
     "En_name":"sefsdv",
     "price":3200,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 18  
 },
 {
     "id":"dBDdfd",
     "image":"/images/beer6.jpg",
-    "name":"dfsfe",
+    "name":"dtgjde",
     "En_name":"sefsdv",
     "price":1900,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 7
 },
 {
     "id":"dFBDGERd",
     "image":"/images/beer7.jpg",
-    "name":"dfsfe",
+    "name":"ddyjghe",
     "En_name":"sefsdv",
     "price":2000,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 4
 }
 ,{
     "id":"dDFFFf",
     "image":"/images/beer8.jpg",
-    "name":"dfsfe",
+    "name":"djghh",
     "En_name":"sefsdv",
     "price":2500,
-    "currency":"NT$"
+    "currency":"NT$",
+    "describe":"擁有芳香啤酒花獨特香氣以及清爽暢悅的口感。",
+    "country":"日本",
+    "brand":"Kirin",
+    "ml":"500ml",
+    "percent":"4.5%",
+    "countInStock": 20
 }
 
 ]

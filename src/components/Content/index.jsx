@@ -1,15 +1,15 @@
 import styles from './Content.module.css';
-
+import { Link } from 'react-router-dom';
 export default function Content( { product }) {
     return (
         <div className={styles.item} >
-            <a href='/'>
+          <Link to={`/id/${product.id}`}>
             <img
              style={{ width: '100%' }}
               src={product.image}
               alt={product.name}
             />
-            </a>
+          </Link>
             
           <div className={styles.name}>
           <hr className={styles.hr}></hr>
