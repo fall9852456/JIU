@@ -29,6 +29,7 @@
     left:100px;
     top:20px;
     font-weight:bold;
+    font-size: 3rem;
    
    }
    
@@ -37,7 +38,8 @@
     position: absolute;
     color: white;
     left:105px;
-    top:55px;
+    top:65px;
     font-family: Gentium;
     font-weight:bold;
+    font-size: 2em;
    }

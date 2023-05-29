@@ -5,18 +5,7 @@
     text-align: center;
   }
   
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
+  
   
   @keyframes logo-spin {
     from {
@@ -66,14 +55,18 @@
   
   }
   .midrange{
-    background-color: #fff4E2;
-    opacity: 0.5;
+   background-color: #fff4e2;
+    opacity: 0.3;
    display: flex;
    justify-content: center;
    flex-direction: column;
    height: 65vh;
    width: 66%;
+   position: absolute;
+   z-index: 1;
   }
+
+ 
   .wordlogin{
   display: flex;
   justify-content: center;
@@ -81,46 +74,49 @@
   flex-direction: row;
   justify-content: space-between;
   }
+
   .slogan{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
-  }
-  h1{
-    color: #8B2227;
-    font-size: 3vw;
-    font-family:serif;
     position: relative;
-    z-index:5;
-  }
-  h2{
-    color: #d69a32;
-    font-size: 3vw;font-family:serif;
-  }
-  h3{
-    color: #fef3e0;font-size: 3vw;
-  }
-  h4{
-    color: #8B2227;font-size: 3vw;
-  }
-  h5{
-    color: #fef3e0;font-size: 3vw;
-  }
-  .slogan{
-    display: flex;
-    
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  h6{
-    color: #8B2227;font-size: 1.8vw;
-    
+    z-index: 10;
   }
 
-  
+  h1{
+    color: #8B2227;
+    font-size: 4vw;
+    font-family: Gentium;
+    position: relative;
+    z-index: 10;
+  }
+
+  h2{
+    color: #fff4e2;
+    font-size: 4vw;
+    font-family: Gentium;
+  }
+
+  h3{
+    color: #f6e4c7;
+    font-size: 4vw;
+  }
+
+  h4{
+    color: #8B2227;
+    font-size: 3vw;
+    font-family: Gentium;
+    letter-spacing: 0.5em;
+  }
+
+  .makeyourday{
+    color: #5f432c;
+    font-size: 2vw;
+    font-family: Gentium;
+  }
+
   input{
     width: 100%;;
     height: 5vh;
@@ -131,28 +127,33 @@
     margin-top: 2vh;
   }
   
+  .signin{
+    position: relative;
+    z-index: 10;
+  }
+
   .name{
     padding-left:40px;
     font-size: 18px;
+    position: relative;
+    z-index: 10;
    }
   
    button{
     width: 100%;
     height: 5vh;
-    border-radius: 60px;
-    background-color: #fef3e0;
-    color: #8B2227;
-    font: 25px;
-    border:none;
     font-family: Arial;
     font-weight:bolder;
     font-size: medium;
-   margin-top: 2vh;
+    margin-top: 2vh;
    }
+
    .logicon{
-   
     width:6vh;
+    position: relative;
+    z-index: 10;
    }
+
    .loginwith{
     display: flex;
     align-items: center;
@@ -160,15 +161,42 @@
     justify-content: space-between;
     margin-top: 2vh;
    }
-   .signupforgot{
+
+   .signup{
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    color: #8B2227;
     margin-top: 3vh;
-   
+    position: absolute;
+    z-index: 10;
    }
+
+   
+
+  .forgot{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 1.5vh;
+    z-index: 10;
+  }
+
+  
    .orword{
     margin-top: 3vh;
+    color: #8B2227;
+    font-size: 1.2vw;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+   }
+
+   .btn{
+  color: #8B2227;
+  background-color: #ffffff;
+   }
+   
+   .btn:hover{
+    color: #8B2227;
+    background-color:#9f4b4f !important ;
+    
    }
