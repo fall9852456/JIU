@@ -1,12 +1,17 @@
 .Foot{
     display: grid;
     grid-template-columns: 65% 35%;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
+}
+.hr{
+    border: 1px solid #000000;
+    height: 0;
 }
 .Foot_content1{
     display: flex;
     justify-content: space-evenly;
     background-color: #FFF4E2;
+    border-top: 1px solid #000000;
 }
 .promblem{
 color:#891f24 ;
@@ -31,6 +36,7 @@ margin-top: 20px;
 }
 .Foot_content2{
     background-color: #891F24;
+    border-top: 1px solid #000000;
 }
 .word{
     margin-top: 20px;
@@ -39,7 +45,7 @@ margin-top: 20px;
     display: flex;
     justify-content: center;
     color:#FFFFFF ;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     }
 .social{
     display: flex;

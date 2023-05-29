@@ -7,6 +7,9 @@
     background-color:#891f24;
     margin-bottom: 5vh;
 }
+.btn:hover{
+    background-color: #5f432c !important;
+}
 
  .image {
     width: 1.5rem;

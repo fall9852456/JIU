@@ -1,0 +1,174 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  /* body {
+    font-family: 'Raleway', sans-serif;
+    background-image:url('./background.jpg') ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    
+  
+  .midbg{
+    background-image:url('./background.jpg') ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  
+  }
+  .midrange{
+    background-color: #fff4E2;
+    opacity: 0.5;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height: 65vh;
+   width: 66%;
+  }
+  .wordlogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  h1{
+    color: #8B2227;
+    font-size: 3vw;
+    font-family:serif;
+    position: relative;
+    z-index:5;
+  }
+  h2{
+    color: #d69a32;
+    font-size: 3vw;font-family:serif;
+  }
+  h3{
+    color: #fef3e0;font-size: 3vw;
+  }
+  h4{
+    color: #8B2227;font-size: 3vw;
+  }
+  h5{
+    color: #fef3e0;font-size: 3vw;
+  }
+  .slogan{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  h6{
+    color: #8B2227;font-size: 1.8vw;
+    
+  }
+
+  
+  input{
+    width: 100%;;
+    height: 5vh;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    background-color: #8B2227;
+    margin-top: 2vh;
+  }
+  
+  .name{
+    padding-left:40px;
+    font-size: 18px;
+   }
+  
+   button{
+    width: 100%;
+    height: 5vh;
+    border-radius: 60px;
+    background-color: #fef3e0;
+    color: #8B2227;
+    font: 25px;
+    border:none;
+    font-family: Arial;
+    font-weight:bolder;
+    font-size: medium;
+   margin-top: 2vh;
+   }
+   .logicon{
+   
+    width:6vh;
+   }
+   .loginwith{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vh;
+   }
+   .signupforgot{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #8B2227;
+    margin-top: 3vh;
+   
+   }
+   .orword{
+    margin-top: 3vh;
+   }

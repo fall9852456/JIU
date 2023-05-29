@@ -3,6 +3,7 @@ import styles from "./Footer.module.css"
 export default function Header() {
     return (
         <div className={styles.Foot}>
+            
             <div className={styles.Foot_content1}>
                 <div className={styles.first}>
                     <div className={styles.promblem}>

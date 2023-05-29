@@ -1,0 +1,43 @@
+.square{
+    display:grid;
+    margin-top: 40vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:50% 50%;
+    gap:20px;
+  }
+
+  .img{
+    width:500px;
+    height:500px;
+    display: flex;
+    border-radius: 40px;
+    margin:0 auto;
+    opacity: 0.8;
+  }
+
+  :hover.img{
+    opacity: 1;
+    
+  }
+ .container{
+    position: relative;
+  }
+
+  .chiword {
+    position: absolute;
+    color: #ffffff;
+    left:100px;
+    top:20px;
+    font-weight:bold;
+   
+   }
+   
+   
+   .engword{
+    position: absolute;
+    color: white;
+    left:105px;
+    top:55px;
+    font-family: Gentium;
+    font-weight:bold;
+   }

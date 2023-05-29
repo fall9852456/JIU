@@ -1,3 +1,8 @@
+#root {
+  background-color: #FFF4E2;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+
+}
 
 /* RWD Container */
 .container{

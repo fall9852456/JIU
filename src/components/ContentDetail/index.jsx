@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Select } from "antd";
-import { InputNumber, Button } from 'antd';
 import AddToBasket from "../AddToBasket"
 const { Option } = Select;
 import styles from "./ContentDetail.module.css"

@@ -80,7 +80,7 @@ export default function BasketModal({ isOpen, toggleModal }) {
             type="primary"
          >
             <CartIcon size={20} color={"#ffffff"}/>
-            <span style={{ marginLeft: 12 }}>Start Checkout</span>
+            <span >Start Checkout</span>
          </Button>
       </Modal>
    );

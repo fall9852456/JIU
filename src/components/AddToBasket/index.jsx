@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { addCartItems } from "../../redux/cartSlice";
 import styles from "./addtobasket.module.css"
 
+
 export default function AddToCart({ product, qty }) {
   const dispatch = useDispatch();
 
@@ -28,7 +29,7 @@ export default function AddToCart({ product, qty }) {
   };
   return (
     <Button type="primary" className={styles.btn}  onClick={addToCart}>
-      <img className={styles.image} src="/images/basket.svg" />Add To Basket
+      Add To Basket 
     </Button>
   );
 }

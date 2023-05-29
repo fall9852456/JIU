@@ -8,14 +8,45 @@ font-size: 40px;
 align-items: center;
 justify-content:space-between;
 }
-.JIU{
-    margin-left:50px ;
-}
+
 .icon{
     display: flex;
     align-items: center;
-    margin-right:40px ;
+    margin-right:80px ;
 }
 .icon1{
     margin-right:20px ;
 }
+
+/*navbar*/
+.back{
+   margin:auto;
+} 
+    
+    nav a {
+        color: inherit; /* 移除超連結顏色 */
+        text-decoration: none;  /* 移除超連結底線 */
+    }
+    
+    ul {
+      list-style: none;   /* 移除項目符號 */
+      padding:0;
+    }
+    
+    ul.back li{
+      z-index: 1;
+      float:left;
+    }
+    
+      
+    .block{
+      display: block;
+      padding:10px;
+      color:#FFF4E2;
+      font-size:20px;
+      margin-left: 50px;
+    }
+    
+    .block:hover{
+      color: #ffd29b;
+    }

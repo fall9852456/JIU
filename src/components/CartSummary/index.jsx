@@ -19,9 +19,8 @@ export default function CartSummary() {
     <>
     <nav onClick={toggleOpen} className={styles.cartSummary} >
       <Badge count={count} color="#6366F2" style={{color: 'white'}}>
-        <CartIcon size={32} color={colorTextBase} />
+        <CartIcon size={50} color={colorTextBase} />
       </Badge>
-      <p className={styles.cartText}> Shopping bag </p>
     </nav>
      <BasketModal
      isOpen={isOpen}

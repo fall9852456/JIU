@@ -1,25 +1,18 @@
 import Header from "../components/Header"
-import Container from "../components/Container"
+import Carousel from "../components/Carousel"
+import Square from "../components/Square"
+import Firstpage from "../components/Firstpage"
 import Footer from "../components/Footer"
-import products from "../Json/beer.json";
 function Home(){
     return(
-        <div className="container mainlayout">
-            <Header className="layoutHeader"
-                
-                
-                
-            />
-            <Container products={products}
-            className="layoutContainer"
-            
-
-            />
-            <Footer className="layoutFooter"
-            
-            />
-        </div>
-
-    )
+     <div>
+       <Header/>
+       <Carousel/>
+       <Square/>
+       <Firstpage/>
+       <Footer/>
+     </div>
+    );
 }
+
 export default Home;
