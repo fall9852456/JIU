@@ -10,9 +10,11 @@ function Loginpage() {
   return (
     
       <div className={styles.midbg}>
+
         <div className={styles.midrange}> </div>
         
-<div>
+       <div className={styles.con}>
+
           <div className={styles.wordlogin}>
             <h1>L</h1>
             <h2>O</h2>
@@ -34,8 +36,8 @@ function Loginpage() {
 
           <div className={styles.signin}>
           <Button type="primary" className={styles.btn}  >
-     sign in
-    </Button>
+            sign up
+          </Button>
           </div>
 
           <div className={styles.orword}>
@@ -58,7 +60,7 @@ function Loginpage() {
 
         </div>
        
-      {/* </div> */}
+      
       </div>
   )
 }

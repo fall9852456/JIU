@@ -29,31 +29,25 @@
   .read-the-docs {
     color: #888;
   }
+
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
   *{
     margin:0;
     padding:0;
     box-sizing:border-box;
   }
-  /* body {
-    font-family: 'Raleway', sans-serif;
-    background-image:url('./background.jpg') ;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
-    
   
+   
+
   .midbg{
-    background-image:url('./background.jpg') ;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
   width: 100%;
-  
+  z-index: 1;
   }
+
   .midrange{
    background-color: #fff4e2;
     opacity: 0.3;
@@ -63,7 +57,7 @@
    height: 65vh;
    width: 66%;
    position: absolute;
-   z-index: 1;
+   z-index: 5;
   }
 
  
@@ -94,14 +88,18 @@
   }
 
   h2{
-    color: #fff4e2;
+    color: #8B2227;
     font-size: 4vw;
     font-family: Gentium;
+    position: relative;
+    z-index: 10;
   }
 
   h3{
-    color: #f6e4c7;
+    color: #8B2227;
     font-size: 4vw;
+    position: relative;
+    z-index: 10;
   }
 
   h4{

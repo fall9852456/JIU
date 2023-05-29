@@ -43,12 +43,14 @@ export default function About(){
 
 <div  className={styles.container}>
 
+ <img className={styles.name} src="images/name.png"/>
     <div data-aos="fade-right" data-aos-duration="3000"className={styles.name}>
       <p className={styles.nametitle}>Name</p>
       <p className={styles.jiu}> JIU.</p><br></br>
       <p className={styles.namecon}><br></br><br></br>The Taiwanese pronunciation of wine is jiu</p>
      </div>
 
+     <img className={styles.origin} src="images/origin.png"/>
      <div data-aos="fade-up" data-aos-duration="3000"className={styles.origin}>
       <p className={styles.origintitle}>Origin</p>
       <p className={styles.year}> Since 2010</p><br></br>
